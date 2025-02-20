@@ -163,6 +163,7 @@ DJDE was supported by an NSERC Discovery Grant.
 
 \begin{itemize}
 \item appendices
+\item supplementary information with Figures S1, S2, etc
 \item tables
 \item Rnw
 \item journal templates
