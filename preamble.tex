@@ -166,6 +166,7 @@
 \newcommand{\dbydx}[1]{\dbyd{#1}{x}}
 \newcommand{\dbydt}[1]{\dbyd{#1}{t}}
 \newcommand{\dbydtau}[1]{\dbyd{#1}{\tau}}
+\newcommand{\didi}[2]{\frac{\partial#1}{\partial#2}}
 
 %% initial conditions
 \newcommand{\tauinit}{\tau_{\rm i}}
@@ -395,3 +396,10 @@
 \newcommand\ttbackslash{{\tt\char`\\}}
 \newcommand{\macro}[1]{{\tt\ttbackslash#1}}
 
+%% Show cut text with strikethrough
+\usepackage[normalem]{ulem}
+\newcommand{\stkout}[1]{{\color{blue}\ifmmode\text{\sout{\ensuremath{#1}}}\else\sout{#1}\fi}}
+%\newcommand{\stkout}[1]{}
+
+%% suggestions
+\newcommand{\dsugg}[1]{{\color{red}#1}}
